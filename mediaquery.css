@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+:root{
+    --main-color:white;
+    --main-color2:rgb(240, 36, 138);
+    --main-color3: rgb(104, 100, 100);
+    --main-color4: rgb(185, 182, 182);
+}
+a.logo {
+    font-family: 'Shizuru', cursive;
+    font-size: 30px;
+    color: var(--main-color2);
+    padding-right: 5px;
+    border-right: 1px solid var(--main-color2);
+}
